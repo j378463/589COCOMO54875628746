@@ -55,6 +55,7 @@ pytest
 | Taha Farooqui | Developer |
 | Reshma Sheikh | Developer |
 | Jacob Cohen | Developer |
+| Diego Aragon | Tester |
 
 ## COCOMO Connection
 The project supports the COCOMO analysis because it includes real development work, testing, tool usage, and documentation. TOOL and SCED were selected as major impact drivers because tool support and schedule pressure affected implementation and testing effort.
