@@ -56,3 +56,7 @@ def test_category(checker):
     assert checker.get_category("A man a plan a canal Panama") == "Sentence"
     assert checker.get_category("12321") == "Number"
     assert checker.get_category("!@#$%^") == "Unknown"
+
+def test_punctuation(checker):
+    assert checker.is_palindrome("Madam, I'm Adam") is True
+    assert checker.is_palindrome("A Toyota's a Toyota") is True
