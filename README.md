@@ -58,7 +58,7 @@ pytest
 | Jacob C | Developer |
 | Diego Aragon | Tester |
 | Emmanuel Sanchez | Tester |
-
+| Juan Cruz | Tester |
 
 
 ## COCOMO Connection
