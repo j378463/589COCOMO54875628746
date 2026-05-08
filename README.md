@@ -59,6 +59,7 @@ pytest
 | Diego Aragon | Tester |
 | Emmanuel Sanchez | Tester |
 | Juan Cruz | Tester |
+| Brandon Dutt | Tester |
 
 
 ## COCOMO Connection
