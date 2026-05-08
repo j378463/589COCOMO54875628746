@@ -54,9 +54,11 @@ pytest
 | Abigail Orellana | Developer |
 | Taha Farooqui | Developer |
 | Reshma Sheikh | Developer |
+| Ahmad Shawkha | Developer |
 | Jacob Cohen | Developer |
 | Diego Aragon | Tester |
 | Emmanuel Sanchez | Tester |
+
 
 
 ## COCOMO Connection
