@@ -55,7 +55,7 @@ pytest
 | Taha Farooqui | Developer |
 | Reshma Sheikh | Developer |
 | Ahmad Shawkha | Developer |
-| Jacob Cohen | Developer |
+| Jacob C | Developer |
 | Diego Aragon | Tester |
 | Emmanuel Sanchez | Tester |
 
