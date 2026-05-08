@@ -7,7 +7,15 @@ import pytest
 
 @pytest.fixture(scope="module")
 def checker_module():
-    script_path = pathlib.Path(__file__).resolve().parents[1] / "palindrome-checker"
+    repo_root = pathlib.Path(__file__).resolve().parents[1]
+    candidates = [
+        repo_root / "palindrome-checker.py",
+        repo_root / "palindrome-checker",
+    ]
+    script_path = next((path for path in candidates if path.exists()), None)
+    if script_path is None:
+        raise RuntimeError("Unable to locate palindrome checker source file")
+
     loader = SourceFileLoader("palindrome_checker", str(script_path))
     spec = importlib.util.spec_from_loader(loader.name, loader)
     if spec is None or spec.loader is None:
