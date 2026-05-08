@@ -9,6 +9,7 @@ import pytest
 def checker_module():
     repo_root = pathlib.Path(__file__).resolve().parents[1]
     candidates = [
+        repo_root / "palindrome_checker.py",
         repo_root / "palindrome-checker.py",
         repo_root / "palindrome-checker",
     ]
