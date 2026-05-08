@@ -60,7 +60,7 @@ pytest
 | Emmanuel Sanchez | Tester |
 | Juan Cruz | Tester |
 | Brandon Dutt | Tester |
-
+| Anahit Apoyan| Tester|
 
 ## COCOMO Connection
 The project supports the COCOMO analysis because it includes real development work, testing, tool usage, and documentation. TOOL and SCED were selected as major impact drivers because tool support and schedule pressure affected implementation and testing effort.
